@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="lb_preference_decor_list_background">#263238</color>
+    <color name="lb_preference_decor_list_background">#FF202124</color>
     <color name="lb_preference_item_primary_text_color_default">#EEEEEE</color>
     <color name="lb_preference_item_primary_text_color_disabled">#4DEEEEEE</color>
     <color name="lb_preference_item_secondary_text_color_default">#B3EEEEEE</color>
@@ -15,7 +15,7 @@
     <dimen name="lb_preference_decor_title_text_height">64dp</dimen>
     <dimen name="lb_preference_decor_title_text_size">20sp</dimen>
     <dimen name="lb_preference_item_icon_margin_end">16dp</dimen>
-    <dimen name="lb_preference_item_icon_size">32dp</dimen>
+    <dimen name="lb_preference_item_icon_size">24dp</dimen>
     <dimen name="lb_preference_item_padding_end">56dp</dimen>
     <dimen name="lb_preference_item_padding_start">24dp</dimen>
     <dimen name="lb_preference_item_primary_text_margin_bottom">2dp</dimen>
@@ -77,19 +77,21 @@
         <item name="android:paddingBottom">34dp</item>
         <item name="android:clipToPadding">false</item>
     </style>
-    <style name="PreferenceThemeOverlay.v14.Leanback">
-        <item name="preferenceScreenStyle">@style/LeanbackPreference.PreferenceScreen</item>
-        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.Leanback</item>
-        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Leanback</item>
-        <item name="preferenceCategoryStyle">@style/LeanbackPreference.Category</item>
-        <item name="preferenceStyle">@style/LeanbackPreference</item>
-        <item name="preferenceInformationStyle">@style/LeanbackPreference.Information</item>
+    <style name="PreferenceThemeOverlay.v14.Leanback" parent="PreferenceThemeOverlayLeanback"/>
+    <style name="PreferenceThemeOverlayLeanback">
         <item name="checkBoxPreferenceStyle">@style/LeanbackPreference.CheckBoxPreference</item>
-        <item name="switchPreferenceCompatStyle">@style/LeanbackPreference.SwitchPreferenceCompat</item>
-        <item name="seekBarPreferenceStyle">@style/LeanbackPreference.SeekBarPreference</item>
-        <item name="switchPreferenceStyle">@style/LeanbackPreference.SwitchPreference</item>
         <item name="dialogPreferenceStyle">@style/LeanbackPreference.DialogPreference</item>
+        <item name="dropdownPreferenceStyle">@style/Preference.DropDown</item>
         <item name="editTextPreferenceStyle">@style/LeanbackPreference.DialogPreference.EditTextPreference</item>
+        <item name="preferenceCategoryStyle">@style/LeanbackPreference.Category</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.Leanback</item>
         <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Leanback</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Leanback</item>
+        <item name="preferenceInformationStyle">@style/LeanbackPreference.Information</item>
+        <item name="preferenceScreenStyle">@style/LeanbackPreference.PreferenceScreen</item>
+        <item name="preferenceStyle">@style/LeanbackPreference</item>
+        <item name="seekBarPreferenceStyle">@style/LeanbackPreference.SeekBarPreference</item>
+        <item name="switchPreferenceCompatStyle">@style/LeanbackPreference.SwitchPreferenceCompat</item>
+        <item name="switchPreferenceStyle">@style/LeanbackPreference.SwitchPreference</item>
     </style>
 </resources>

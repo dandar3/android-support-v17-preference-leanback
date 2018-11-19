@@ -13,7 +13,8 @@ https://maven.google.com/com/android/support/preference-leanback-v17/28.0.0/pref
 - [dandar3/android-support-v7-recyclerview](https://github.com/dandar3/android-support-v7-recyclerview/tree/28.0.0)
 
 **References:**
-
+- https://developer.android.com/topic/libraries/support-library/revisions#28-0-0
+- https://developer.android.com/topic/libraries/support-library/packages#v17-preference
 
 **SVN checkout:**
 - _File > Import... > Team > Team Project Set > URL:_<br/>
